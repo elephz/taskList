@@ -1,0 +1,13 @@
+.btn-custom1 {
+    background-color: white;
+    padding: 5px 10px;
+    transition: 0.3s;
+    font-size: 14px;
+    color: black;
+    border: 1px solid black;
+}
+
+.btn-custom1:hover {
+    background: black;
+    color: white;
+}
