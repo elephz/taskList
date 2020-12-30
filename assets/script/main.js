@@ -107,12 +107,12 @@ function getdata(){
                 let btnSuccess = '';
                 if(v.task_status == '1'){
                     status = 'กำลังดำเนินการ';
-                    btnSuccess =  `<button class="btn btn-success" data-id='${v.task_id}'>สำเร็จ</button>`;
+                    btnSuccess =  `<button class="btn m-1 btn-success" data-id='${v.task_id}'>สำเร็จ</button>`;
                 }else{
                     status = 'ดำเนินการเสร็จสิ้น';
                 }
-                let btnEdit =  `<button class="btn btn-primary" data-toggle="modal" data-target="#modal_update" data-detail='${v.task_detail}' data-id='${v.task_id}'>แก้ไข</button>`;
-                let btnRemove =  `<button class="btn btn-danger" data-id='${v.task_id}'>ลบ</button>`;
+                let btnEdit =  `<button class="btn m-1 btn-primary" data-toggle="modal" data-target="#modal_update" data-detail='${v.task_detail}' data-id='${v.task_id}'>แก้ไข</button>`;
+                let btnRemove =  `<button class="btn m-1 btn-danger" data-id='${v.task_id}'>ลบ</button>`;
                 
                 rows+=
                 `

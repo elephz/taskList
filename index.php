@@ -12,8 +12,8 @@
 
    <div class="container">
        <div class="row">
-           <div class="col">
-               <div class="card my-5 w-75 mx-auto">
+           
+               <div class="card my-5 mx-auto card-custom">
                    <div class="card-header">
                         <span>Task-List</span>
                    </div>
@@ -24,7 +24,7 @@
                            </div>
                        </div>
                         <div class="row">
-                            <table class='table'>
+                            <table class='table table-responsive'>
                                 <thead>
                                     <tr>
                                         <th>#</th>
@@ -39,7 +39,7 @@
                             </table>
                         </div>
                    </div>
-               </div>
+               
            </div>
        </div>
         <!-- modal -->
